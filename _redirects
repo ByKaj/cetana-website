@@ -1,0 +1,10 @@
+# Redirect domain aliases to primary domain
+https://cetana.eu/* https://www.cetana.nl/:splat 301!
+https://www.cetana.eu/* https://www.cetana.nl/:splat 301!
+https://cetana.solutions/* https://www.cetana.nl/:splat 301!
+https://www.cetana.solutions/* https://www.cetana.nl/:splat 301!
+https://cetana.net/* https://www.cetana.nl/:splat 301!
+https://www.cetana.net/* https://www.cetana.nl/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://cetana-website.netlify.com/* https://www.cetana.nl/:splat 301!
